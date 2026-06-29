@@ -11,7 +11,7 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
-jobs:
+jobs: # <--- 这一行，必须顶格，没有任何缩进！
   build:
     runs-on: ubuntu-latest
     permissions:
